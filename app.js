@@ -97,7 +97,7 @@ function cards(items) {
 async function home() {
   main.innerHTML = `
     <section class="hero" aria-labelledby="headline">
-      <div class="hero-content"><div class="eyebrow">廣東話聚會助手</div>
+      <div class="hero-content"><div class="eyebrow">聚會助手</div>
       <h1 id="headline">Gathering</h1>
       <p>整張邀請，睇邊個到，散場一齊夾數。</p>
       <button class="button lime" data-action="create">＋ 建立活動</button></div>
