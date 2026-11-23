@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="廣東話聚會助手。整邀請、收回覆、加日曆同夾數。">
+  <title>Gathering</title>
+  <link rel="stylesheet" href="./site.css">
+  <script type="module" src="./app.js"></script>
+  <meta name="gathering-backend" content="https://hoi-guk-party-table.rustytang3.chatgpt.site">
+</head>
+<body>
+  <header class="top"><div class="frame bar">
+    <a class="brand" href="./" aria-label="Gathering 首頁"><span class="mark" aria-hidden="true">✳</span><span>Gathering</span></a>
+    <button class="button outline" data-action="create">＋ 建立活動</button>
+  </div></header>
+  <main id="main" class="frame"></main>
+  <footer class="frame footer"><span>Gathering</span><span>約人、到場、埋單。</span></footer>
+  <dialog id="editor"></dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+</body>
+</html>
